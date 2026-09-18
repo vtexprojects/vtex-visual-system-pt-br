@@ -1,0 +1,34 @@
+<!-- @dsCard group="Icons" viewport="700x1560" name="Icon Set" subtitle="224 stroke icons — 72 brand + 152 Tabler · assets/icons/{rebel-pink,sirius-black,white}/ + assets/icons/tabler/…" -->
+<!DOCTYPE html><html><head><meta charset="utf-8"><link rel="stylesheet" href="../styles.css"><style>body{margin:0;font-family:var(--font-brand);background:#fff;transition:background .25s}a{color:#F71963}a:hover{color:#DD1659}
+.btns{display:flex;gap:8px;padding:16px 16px 6px}
+.btns button{font-family:var(--font-brand);font-size:13px;font-weight:500;padding:7px 16px;border-radius:999px;border:1px solid #E7E9EE;background:#fff;color:#5B6E84;cursor:pointer}
+.btns button.on{background:#F71963;border-color:#F71963;color:#fff}
+body.dark .btns button{background:transparent;border-color:rgba(255,255,255,.25);color:#A1A8B7}
+body.dark .btns button.on{background:#F71963;border-color:#F71963;color:#fff}
+.grid{display:grid;grid-template-columns:repeat(10,1fr);gap:14px 4px;padding:12px 10px 16px;width:100%;box-sizing:border-box}
+.grid figure{margin:0;display:flex;flex-direction:column;align-items:center;gap:3px}
+.grid img{width:34px;height:34px}
+.grid figcaption{font-size:8px;color:#A1A8B7;font-family:monospace;text-align:center;word-break:break-all}
+.sub{padding:2px 16px;font-size:11px;color:#A1A8B7}
+</style></head><body>
+<div class="btns"><button class="on" data-v="rebel-pink">Rebel Pink</button><button data-v="sirius-black">Sirius Black</button><button data-v="white">White</button></div>
+<div class="sub" id="hint">assets/icons/rebel-pink/&lt;name&gt;.svg · Tabler: assets/icons/tabler/rebel-pink/&lt;name&gt;.svg</div>
+<div class="grid" id="grid"></div>
+<script>
+const BRAND=["ab-test","ads","api","at-sign","badge-check","bell","circle","clock","cloud-sync","cloud","code","cursor","desktop","eye","facebook","file","filter","folder","gauge","github","hand-truck","hanger","headphones","heart","hexagon","hierarchy","home","image","instagram","key","keyboard","kwai","layers","lightning","linkedin","lock","mail","map-pin","messenger","microphone","mobile","mug","package","piggy-bank","pill","play","presentation","quote","receipt","search","send","settings","shield-check","shopping-cart","skip-back","skip-forward","spotify","t-shirt","tag","target","terminal","thumbs-up","tiktok","trash","trophy","truck","user","warning-badge","whatsapp","workflow","x-twitter","youtube"];
+const TABLER=["adjustments","alert-triangle","archive","arrow-left","arrow-right","award","barcode","basket","battery","bolt-off","bookmark","box","brain","briefcase","browser","bug","building-store","bulb","calculator","calendar","calendar-event","camera","cash","certificate","chart-bar","chart-dots","chart-line","chart-pie","check","checklist","chevron-down","chevron-left","chevron-right","chevron-up","click","clipboard","clock-hour-4","cloud-download","cloud-upload","coin","columns","command","compass","confetti","container","copy","cpu","credit-card","crown","currency-dollar","dashboard","database","device-analytics","device-laptop","device-tablet","discount","dots","dots-vertical","download","edit","external-link","eye-off","face-id","file-invoice","file-text","fingerprint","flag","flame","flask","forms","gift","globe","grid-dots","growth","hash","help","history","id","inbox","infinity","info-circle","language","layout","layout-grid","link","list","list-check","loader","login","logout","man","map","maximize","menu-2","message","message-circle","minus","mood-smile","moon","news","notification","palette","paperclip","pencil","percentage","phone","photo","pin","plug","plus","printer","puzzle","qrcode","receipt-2","refresh","repeat","report-analytics","robot","rocket","route","scale","scan","school","selector","server","share","shield","shopping-bag","sort-ascending","sparkles","speakerphone","stack","star","sun","table","template","thumb-down","ticket","tool","tools","transfer-in","trending-down","trending-up","upload","users","video","wallet","wand","wifi","world","x","zoom-in"];
+const grid=document.getElementById('grid');
+function render(v){
+  document.body.classList.toggle('dark', v==='white');
+  document.body.style.background = v==='white' ? '#142032' : '#fff';
+  document.getElementById('hint').textContent='assets/icons/'+v+'/<name>.svg · Tabler: assets/icons/tabler/'+v+'/<name>.svg';
+  grid.innerHTML = BRAND.map(n=>'<figure><img loading="lazy" src="../assets/icons/'+v+'/'+n+'.svg" alt="'+n+'"><figcaption>'+n+'</figcaption></figure>').join('')
+    + TABLER.map(n=>'<figure><img loading="lazy" src="../assets/icons/tabler/'+v+'/'+n+'.svg" alt="'+n+'"><figcaption>'+n+'</figcaption></figure>').join('');
+}
+document.querySelectorAll('.btns button').forEach(b=>b.addEventListener('click',()=>{
+  document.querySelectorAll('.btns button').forEach(x=>x.classList.remove('on'));
+  b.classList.add('on'); render(b.dataset.v);
+}));
+render('rebel-pink');
+</script>
+</body></html>

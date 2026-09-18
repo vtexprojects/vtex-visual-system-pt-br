@@ -1,0 +1,48 @@
+<!-- @dsCard group="Components" viewport="700x420" name="Diagram Kit" subtitle="Architecture diagram standard — title, nodes, groups, legend" -->
+<!DOCTYPE html><html><head><meta charset="utf-8"><link rel="stylesheet" href="../../styles.css">
+<script src="https://unpkg.com/react@18.3.1/umd/react.development.js" integrity="sha384-hD6/rw4ppMLGNu3tX5cjIb+uRZ7UkRJ6BPkLpg4hAu/6onKUg4lLsHAs9EBPT82L" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.development.js" integrity="sha384-u6aeetuaXnQ38mYT8rp6sbXaQe3NL9t+IBXmnYxwkUI2Hw4bsp2Wvmx4yRQF1uAm" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/@babel/standalone@7.29.0/babel.min.js" integrity="sha384-m08KidiNqLdpJqLq95G/LEi8Qvjl/xUYll3QILypMoQ65QorJ9Lvtp2RXYGBFj1y" crossorigin="anonymous"></script>
+<script src="../../_ds_bundle.js"></script>
+<script type="text/babel" src="./tweaks-panel.js"></script>
+<style>body{margin:0;background:#fff}a{color:#F71963}a:hover{color:#DD1659}</style></head><body>
+<div id="root"></div>
+<script type="text/babel">
+const { DiagramTitle, DiagramNode, DiagramGroup, DiagramLegend, NoteBox } = window.VTEXDesignSystem_e401bd;
+const TWEAK_DEFAULTS = /*EDITMODE-BEGIN*/{
+  "density": "regular",
+  "fillTreatment": "solid",
+  "showNote": false
+}/*EDITMODE-END*/;
+const DENSITY = { compact: { pad: 12, gap: 6, node: '10px 8px', font: 13 }, regular: { pad: 24, gap: 10, node: '14px 12px', font: 14 }, spacious: { pad: 36, gap: 16, node: '20px 16px', font: 15 } };
+function Demo(){
+  const [t, setTweak] = useTweaks(TWEAK_DEFAULTS);
+  const d = DENSITY[t.density] || DENSITY.regular;
+  const soft = t.fillTreatment === 'soft';
+  const nodeStyle = (kind) => ({ padding: d.node, fontSize: d.font, ...(soft ? { background: { native: '#FFC4DD7F', external: '#5B6E84CC', middleware: '#142032E6' }[kind] } : null) });
+  return (
+<div style={{padding:d.pad,fontFamily:'var(--font-brand)'}}>
+  <DiagramTitle subtitle="Solution Architecture — Sample" />
+  <DiagramGroup label="VTEX Account" style={{margin:`${d.gap*2}px 0 ${d.gap}px`}}>
+    <DiagramNode kind="native" label="Catalog" style={nodeStyle('native')} />
+    <DiagramNode kind="native" label="Checkout" style={nodeStyle('native')} />
+    <DiagramNode kind="native" label="OMS" style={nodeStyle('native')} />
+    <DiagramNode kind="custom" label="Custom App" sublabel="VTEX IO" style={nodeStyle('custom')} />
+    <DiagramNode kind="middleware" label="Integration Middleware" sublabel="Single integration path to client systems" style={nodeStyle('middleware')} />
+  </DiagramGroup>
+  <DiagramGroup label="Client / External Systems" external style={{margin:`${d.gap*2}px 0 ${d.gap}px`}}>
+    <DiagramNode kind="external" label="ERP" style={nodeStyle('external')} />
+    <DiagramNode kind="external" label="CRM" style={nodeStyle('external')} />
+    <DiagramNode kind="external" label="PIM" style={nodeStyle('external')} />
+  </DiagramGroup>
+  {t.showNote && <NoteBox>External systems only reachable through the middleware — no direct integration.</NoteBox>}
+  <DiagramLegend />
+  <TweaksPanel>
+    <TweakSection label="Diagram" />
+    <TweakRadio label="Density" value={t.density} options={['compact','regular','spacious']} onChange={(v)=>setTweak('density',v)} />
+    <TweakRadio label="Node fill" value={t.fillTreatment} options={['solid','soft']} onChange={(v)=>setTweak('fillTreatment',v)} />
+    <TweakToggle label="Constraint note" value={t.showNote} onChange={(v)=>setTweak('showNote',v)} />
+  </TweaksPanel>
+</div>);}
+ReactDOM.createRoot(document.getElementById('root')).render(<Demo/>);
+</script></body></html>

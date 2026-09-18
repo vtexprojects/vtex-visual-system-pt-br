@@ -1,0 +1,1573 @@
+[
+ {
+  "slug": "audit-improvement-backlog-ai-agents",
+  "type": "screen",
+  "title": "Audit & Improvement Backlog for AI Agents",
+  "title_pt": "Backlog de auditoria e melhoria para agentes de IA",
+  "title_es": "Backlog de auditoría y mejora para agentes de IA",
+  "category": "AI & Agents",
+  "keywords": [
+   "ai",
+   "agents",
+   "audit",
+   "backlog",
+   "improvement"
+  ],
+  "langs": [
+   "en",
+   "pt-br",
+   "es-mx"
+  ],
+  "svg": [
+   "en",
+   "pt-br",
+   "es-mx"
+  ],
+  "png": [
+   "en",
+   "pt-br",
+   "es-mx"
+  ],
+  "path": "assets/images/<lang>/screens/audit-improvement-backlog-ai-agents.png",
+  "svgPath": "assets/images/<lang>/svg/screens/audit-improvement-backlog-ai-agents.svg"
+ },
+ {
+  "slug": "compliance-alphanumeric-cnpj-brazil",
+  "type": "feature",
+  "title": "Compliance — Alphanumeric CNPJ for Brazil",
+  "title_pt": "Compliance — CNPJ alfanumérico para o Brasil",
+  "title_es": "Compliance — CNPJ alfanumérico para Brasil",
+  "category": "Payments & Checkout",
+  "keywords": [
+   "compliance",
+   "cnpj",
+   "brazil",
+   "tax"
+  ],
+  "langs": [
+   "en",
+   "pt-br",
+   "es-mx"
+  ],
+  "svg": [
+   "en",
+   "pt-br",
+   "es-mx"
+  ],
+  "png": [
+   "en",
+   "pt-br",
+   "es-mx"
+  ],
+  "path": "assets/images/<lang>/features/compliance-alphanumeric-cnpj-brazil.png",
+  "svgPath": "assets/images/<lang>/svg/features/compliance-alphanumeric-cnpj-brazil.svg"
+ },
+ {
+  "slug": "intelligent-search-hide-filters-dead-ends",
+  "type": "feature",
+  "title": "Intelligent Search — Hide Filters That Lead to Dead Ends",
+  "title_pt": "Intelligent Search — Ocultar filtros sem resultado",
+  "title_es": "Intelligent Search — Ocultar filtros sin resultados",
+  "category": "Search & Ads",
+  "keywords": [
+   "search",
+   "filters",
+   "product visibility"
+  ],
+  "langs": [
+   "en",
+   "pt-br",
+   "es-mx"
+  ],
+  "svg": [
+   "en",
+   "pt-br",
+   "es-mx"
+  ],
+  "png": [
+   "en",
+   "pt-br",
+   "es-mx"
+  ],
+  "path": "assets/images/<lang>/features/intelligent-search-hide-filters-dead-ends.png",
+  "svgPath": "assets/images/<lang>/svg/features/intelligent-search-hide-filters-dead-ends.svg"
+ },
+ {
+  "slug": "intelligent-search-negative-filters",
+  "type": "feature",
+  "title": "Intelligent Search — Negative Filters",
+  "title_pt": "Intelligent Search — Filtros negativos",
+  "title_es": "Intelligent Search — Filtros negativos",
+  "category": "Search & Ads",
+  "keywords": [
+   "search",
+   "filters"
+  ],
+  "langs": [
+   "en",
+   "pt-br",
+   "es-mx"
+  ],
+  "svg": [
+   "en",
+   "pt-br",
+   "es-mx"
+  ],
+  "png": [
+   "en",
+   "pt-br",
+   "es-mx"
+  ],
+  "path": "assets/images/<lang>/features/intelligent-search-negative-filters.png",
+  "svgPath": "assets/images/<lang>/svg/features/intelligent-search-negative-filters.svg"
+ },
+ {
+  "slug": "payments-contingency-mode",
+  "type": "feature",
+  "title": "Payments — Contingency Mode",
+  "title_pt": "Pagamentos — Modo de contingência",
+  "title_es": "Pagos — Modo de contingencia",
+  "category": "Payments & Checkout",
+  "keywords": [
+   "payments",
+   "resilience",
+   "transactions"
+  ],
+  "langs": [
+   "en",
+   "pt-br",
+   "es-mx"
+  ],
+  "svg": [
+   "en",
+   "pt-br",
+   "es-mx"
+  ],
+  "png": [
+   "en",
+   "pt-br",
+   "es-mx"
+  ],
+  "path": "assets/images/<lang>/features/payments-contingency-mode.png",
+  "svgPath": "assets/images/<lang>/svg/features/payments-contingency-mode.svg"
+ },
+ {
+  "slug": "payments-contingency-mode-1",
+  "type": "feature",
+  "title": "Payments — Contingency Mode (alt)",
+  "title_pt": "Pagamentos — Modo de contingência (alt)",
+  "title_es": "Pagos — Modo de contingencia (alt)",
+  "category": "Payments & Checkout",
+  "keywords": [
+   "payments",
+   "resilience"
+  ],
+  "langs": [
+   "en",
+   "pt-br",
+   "es-mx"
+  ],
+  "svg": [
+   "en",
+   "pt-br",
+   "es-mx"
+  ],
+  "png": [
+   "en",
+   "pt-br",
+   "es-mx"
+  ],
+  "path": "assets/images/<lang>/features/payments-contingency-mode-1.png",
+  "svgPath": "assets/images/<lang>/svg/features/payments-contingency-mode-1.svg"
+ },
+ {
+  "slug": "payments-partial-settlement-multi-payment-order",
+  "type": "feature",
+  "title": "Payments — Partial Settlement for Multi-Payment Order",
+  "title_pt": "Pagamentos — Captura parcial em pedidos multipagamento",
+  "title_es": "Pagos — Captura parcial en pedidos multipago",
+  "category": "Payments & Checkout",
+  "keywords": [
+   "payments",
+   "settlement",
+   "EBT",
+   "policy"
+  ],
+  "langs": [
+   "en",
+   "pt-br",
+   "es-mx"
+  ],
+  "svg": [
+   "en",
+   "pt-br",
+   "es-mx"
+  ],
+  "png": [
+   "en",
+   "pt-br",
+   "es-mx"
+  ],
+  "path": "assets/images/<lang>/features/payments-partial-settlement-multi-payment-order.png",
+  "svgPath": "assets/images/<lang>/svg/features/payments-partial-settlement-multi-payment-order.svg"
+ },
+ {
+  "slug": "vtex-cx-mcp-analytics-access",
+  "type": "screen",
+  "title": "VTEX CX MCP — Analytics Access",
+  "title_pt": "VTEX CX MCP — Acesso a analytics",
+  "title_es": "VTEX CX MCP — Acceso a analytics",
+  "category": "AI & Agents",
+  "keywords": [
+   "mcp",
+   "analytics",
+   "ai tools"
+  ],
+  "langs": [
+   "en",
+   "pt-br",
+   "es-mx"
+  ],
+  "svg": [
+   "en",
+   "pt-br",
+   "es-mx"
+  ],
+  "png": [
+   "en",
+   "pt-br",
+   "es-mx"
+  ],
+  "path": "assets/images/<lang>/screens/vtex-cx-mcp-analytics-access.png",
+  "svgPath": "assets/images/<lang>/svg/screens/vtex-cx-mcp-analytics-access.svg"
+ },
+ {
+  "slug": "apple-pay-checkout-v6",
+  "type": "screen",
+  "title": "Apple Pay for Checkout",
+  "title_pt": "Apple Pay no Checkout",
+  "title_es": "Apple Pay en el Checkout",
+  "category": "Payments & Checkout",
+  "keywords": [
+   "apple pay",
+   "checkout",
+   "wallet"
+  ],
+  "langs": [
+   "en",
+   "pt-br",
+   "es-mx"
+  ],
+  "svg": [
+   "en",
+   "pt-br",
+   "es-mx"
+  ],
+  "png": [
+   "en",
+   "pt-br",
+   "es-mx"
+  ],
+  "path": "assets/images/<lang>/screens/apple-pay-checkout-v6.png",
+  "svgPath": "assets/images/<lang>/svg/screens/apple-pay-checkout-v6.svg"
+ },
+ {
+  "slug": "campaign-manager",
+  "type": "screen",
+  "title": "Campaign Manager",
+  "title_pt": "Gerenciador de campanhas",
+  "title_es": "Administrador de campañas",
+  "category": "Search & Ads",
+  "keywords": [
+   "ads",
+   "campaign planning",
+   "media plan"
+  ],
+  "langs": [
+   "en",
+   "pt-br",
+   "es-mx"
+  ],
+  "svg": [
+   "en",
+   "pt-br",
+   "es-mx"
+  ],
+  "png": [
+   "en",
+   "pt-br",
+   "es-mx"
+  ],
+  "path": "assets/images/<lang>/screens/campaign-manager.png",
+  "svgPath": "assets/images/<lang>/svg/screens/campaign-manager.svg"
+ },
+ {
+  "slug": "collections-agent",
+  "type": "screen",
+  "title": "Collections Agent",
+  "title_pt": "Agente de coleções",
+  "title_es": "Agente de colecciones",
+  "category": "AI & Agents",
+  "keywords": [
+   "collections",
+   "catalog",
+   "agent"
+  ],
+  "langs": [
+   "en",
+   "pt-br",
+   "es-mx"
+  ],
+  "svg": [
+   "en",
+   "pt-br",
+   "es-mx"
+  ],
+  "png": [
+   "en",
+   "pt-br",
+   "es-mx"
+  ],
+  "path": "assets/images/<lang>/screens/collections-agent.png",
+  "svgPath": "assets/images/<lang>/svg/screens/collections-agent.svg"
+ },
+ {
+  "slug": "delivery-options",
+  "type": "screen",
+  "title": "Delivery Options",
+  "title_pt": "Opções de entrega",
+  "title_es": "Opciones de entrega",
+  "category": "Logistics & Fulfillment",
+  "keywords": [
+   "shipping",
+   "delivery options",
+   "admin"
+  ],
+  "langs": [
+   "en",
+   "pt-br",
+   "es-mx"
+  ],
+  "svg": [
+   "en",
+   "pt-br",
+   "es-mx"
+  ],
+  "png": [
+   "en",
+   "pt-br",
+   "es-mx"
+  ],
+  "path": "assets/images/<lang>/screens/delivery-options.png",
+  "svgPath": "assets/images/<lang>/svg/screens/delivery-options.svg"
+ },
+ {
+  "slug": "delivery-promise",
+  "type": "screen",
+  "title": "Delivery Promise",
+  "title_pt": "Promessa de entrega",
+  "title_es": "Promesa de entrega",
+  "category": "Logistics & Fulfillment",
+  "keywords": [
+   "delivery promise",
+   "pdp",
+   "receba hoje"
+  ],
+  "langs": [
+   "en",
+   "pt-br",
+   "es-mx"
+  ],
+  "svg": [
+   "en",
+   "pt-br",
+   "es-mx"
+  ],
+  "png": [
+   "en",
+   "pt-br",
+   "es-mx"
+  ],
+  "path": "assets/images/<lang>/screens/delivery-promise.png",
+  "svgPath": "assets/images/<lang>/svg/screens/delivery-promise.svg"
+ },
+ {
+  "slug": "delivery-promise-show-only-receivable",
+  "type": "screen",
+  "title": "Delivery Promise — Show Only What Shoppers Can Actually Receive",
+  "title_pt": "Promessa de entrega — Mostrar só o que o cliente pode receber",
+  "title_es": "Promesa de entrega — Mostrar solo lo que el cliente puede recibir",
+  "category": "Logistics & Fulfillment",
+  "keywords": [
+   "delivery promise",
+   "plp",
+   "store picker"
+  ],
+  "langs": [
+   "en",
+   "pt-br",
+   "es-mx"
+  ],
+  "svg": [
+   "en",
+   "pt-br",
+   "es-mx"
+  ],
+  "png": [
+   "en",
+   "pt-br",
+   "es-mx"
+  ],
+  "path": "assets/images/<lang>/screens/delivery-promise-show-only-receivable.png",
+  "svgPath": "assets/images/<lang>/svg/screens/delivery-promise-show-only-receivable.svg"
+ },
+ {
+  "slug": "faststore-visual-editor",
+  "type": "screen",
+  "title": "FastStore — Visual Editor",
+  "title_pt": "FastStore — Editor visual",
+  "title_es": "FastStore — Editor visual",
+  "category": "Storefront, CMS & WebOps",
+  "keywords": [
+   "faststore",
+   "storefront",
+   "editor"
+  ],
+  "langs": [
+   "en",
+   "pt-br",
+   "es-mx"
+  ],
+  "svg": [
+   "en",
+   "pt-br",
+   "es-mx"
+  ],
+  "png": [
+   "en",
+   "pt-br",
+   "es-mx"
+  ],
+  "path": "assets/images/<lang>/screens/faststore-visual-editor.png",
+  "svgPath": "assets/images/<lang>/svg/screens/faststore-visual-editor.svg"
+ },
+ {
+  "slug": "faststore-password-protection",
+  "type": "screen",
+  "title": "FastStore — Password-Protect Your Storefront",
+  "title_pt": "FastStore — Proteger a loja com senha",
+  "title_es": "FastStore — Proteger la tienda con contraseña",
+  "category": "Storefront, CMS & WebOps",
+  "keywords": [
+   "faststore",
+   "password",
+   "staging"
+  ],
+  "langs": [
+   "en",
+   "pt-br",
+   "es-mx"
+  ],
+  "svg": [
+   "en",
+   "pt-br",
+   "es-mx"
+  ],
+  "png": [
+   "en",
+   "pt-br",
+   "es-mx"
+  ],
+  "path": "assets/images/<lang>/screens/faststore-password-protection.png",
+  "svgPath": "assets/images/<lang>/svg/screens/faststore-password-protection.svg"
+ },
+ {
+  "slug": "fraud-prevention",
+  "type": "screen",
+  "title": "Fraud Prevention",
+  "title_pt": "Prevenção a fraudes",
+  "title_es": "Prevención de fraude",
+  "category": "Payments & Checkout",
+  "keywords": [
+   "fraud",
+   "risk",
+   "transactions"
+  ],
+  "langs": [
+   "en",
+   "pt-br",
+   "es-mx"
+  ],
+  "svg": [
+   "en",
+   "pt-br",
+   "es-mx"
+  ],
+  "png": [
+   "en",
+   "pt-br",
+   "es-mx"
+  ],
+  "path": "assets/images/<lang>/screens/fraud-prevention.png",
+  "svgPath": "assets/images/<lang>/svg/screens/fraud-prevention.svg"
+ },
+ {
+  "slug": "live-desk-restrict-support",
+  "type": "screen",
+  "title": "Live Desk — Restrict Support to Available Representatives",
+  "title_pt": "Live Desk — Restringir atendimento a representantes disponíveis",
+  "title_es": "Live Desk — Restringir soporte a representantes disponibles",
+  "category": "AI & Agents",
+  "keywords": [
+   "live desk",
+   "support",
+   "status"
+  ],
+  "langs": [
+   "en",
+   "pt-br",
+   "es-mx"
+  ],
+  "svg": [
+   "en",
+   "pt-br",
+   "es-mx"
+  ],
+  "png": [
+   "en",
+   "pt-br",
+   "es-mx"
+  ],
+  "path": "assets/images/<lang>/screens/live-desk-restrict-support.png",
+  "svgPath": "assets/images/<lang>/svg/screens/live-desk-restrict-support.svg"
+ },
+ {
+  "slug": "master-data-usage-dashboard",
+  "type": "screen",
+  "title": "Master Data — Usage Dashboard & Billing Autonomy",
+  "title_pt": "Master Data — Painel de uso e autonomia de cobrança",
+  "title_es": "Master Data — Panel de uso y autonomía de facturación",
+  "category": "Platform & Data",
+  "keywords": [
+   "master data",
+   "usage",
+   "billing"
+  ],
+  "langs": [
+   "en",
+   "pt-br",
+   "es-mx"
+  ],
+  "svg": [
+   "en",
+   "pt-br",
+   "es-mx"
+  ],
+  "png": [
+   "en",
+   "pt-br",
+   "es-mx"
+  ],
+  "path": "assets/images/<lang>/screens/master-data-usage-dashboard.png",
+  "svgPath": "assets/images/<lang>/svg/screens/master-data-usage-dashboard.svg"
+ },
+ {
+  "slug": "new-cms-form-structure",
+  "type": "screen",
+  "title": "New CMS — Form Structure",
+  "title_pt": "Novo CMS — Estrutura de formulários",
+  "title_es": "Nuevo CMS — Estructura de formularios",
+  "category": "Storefront, CMS & WebOps",
+  "keywords": [
+   "cms",
+   "sections",
+   "content"
+  ],
+  "langs": [
+   "en",
+   "pt-br",
+   "es-mx"
+  ],
+  "svg": [
+   "en",
+   "pt-br",
+   "es-mx"
+  ],
+  "png": [
+   "en",
+   "pt-br",
+   "es-mx"
+  ],
+  "path": "assets/images/<lang>/screens/new-cms-form-structure.png",
+  "svgPath": "assets/images/<lang>/svg/screens/new-cms-form-structure.svg"
+ },
+ {
+  "slug": "new-cms-listings",
+  "type": "screen",
+  "title": "New CMS — Listings",
+  "title_pt": "Novo CMS — Listagens",
+  "title_es": "Nuevo CMS — Listados",
+  "category": "Storefront, CMS & WebOps",
+  "keywords": [
+   "cms",
+   "content types"
+  ],
+  "langs": [
+   "en",
+   "pt-br",
+   "es-mx"
+  ],
+  "svg": [
+   "en",
+   "pt-br",
+   "es-mx"
+  ],
+  "png": [
+   "en",
+   "pt-br",
+   "es-mx"
+  ],
+  "path": "assets/images/<lang>/screens/new-cms-listings.png",
+  "svgPath": "assets/images/<lang>/svg/screens/new-cms-listings.svg"
+ },
+ {
+  "slug": "new-cms-versioning",
+  "type": "screen",
+  "title": "New CMS — Versioning",
+  "title_pt": "Novo CMS — Versionamento",
+  "title_es": "Nuevo CMS — Versionado",
+  "category": "Storefront, CMS & WebOps",
+  "keywords": [
+   "cms",
+   "versions",
+   "branches"
+  ],
+  "langs": [
+   "en",
+   "pt-br",
+   "es-mx"
+  ],
+  "svg": [
+   "en",
+   "pt-br",
+   "es-mx"
+  ],
+  "png": [
+   "en",
+   "pt-br",
+   "es-mx"
+  ],
+  "path": "assets/images/<lang>/screens/new-cms-versioning.png",
+  "svgPath": "assets/images/<lang>/svg/screens/new-cms-versioning.svg"
+ },
+ {
+  "slug": "new-to-brand",
+  "type": "screen",
+  "title": "New to Brand",
+  "title_pt": "New to Brand",
+  "title_es": "New to Brand",
+  "category": "Search & Ads",
+  "keywords": [
+   "ads",
+   "segmentation",
+   "new-to-brand"
+  ],
+  "langs": [
+   "en",
+   "pt-br",
+   "es-mx"
+  ],
+  "svg": [
+   "en",
+   "pt-br",
+   "es-mx"
+  ],
+  "png": [
+   "en",
+   "pt-br",
+   "es-mx"
+  ],
+  "path": "assets/images/<lang>/screens/new-to-brand.png",
+  "svgPath": "assets/images/<lang>/svg/screens/new-to-brand.svg"
+ },
+ {
+  "slug": "new-vtex-ai-workspace",
+  "type": "screen",
+  "title": "New VTEX AI Workspace",
+  "title_pt": "Novo VTEX AI Workspace",
+  "title_es": "Nuevo VTEX AI Workspace",
+  "category": "AI & Agents",
+  "keywords": [
+   "ai workspace",
+   "assistant",
+   "dashboard"
+  ],
+  "langs": [
+   "en",
+   "pt-br",
+   "es-mx"
+  ],
+  "svg": [
+   "en",
+   "pt-br",
+   "es-mx"
+  ],
+  "png": [
+   "en",
+   "pt-br",
+   "es-mx"
+  ],
+  "path": "assets/images/<lang>/screens/new-vtex-ai-workspace.png",
+  "svgPath": "assets/images/<lang>/svg/screens/new-vtex-ai-workspace.svg"
+ },
+ {
+  "slug": "operational-capacity-daily-order-limits",
+  "type": "screen",
+  "title": "Operational Capacity — Daily Order Limits per Fulfillment Location",
+  "title_pt": "Capacidade operacional — Limite diário de pedidos por local",
+  "title_es": "Capacidad operativa — Límite diario de pedidos por ubicación",
+  "category": "Logistics & Fulfillment",
+  "keywords": [
+   "capacity",
+   "fulfillment",
+   "sellers"
+  ],
+  "langs": [
+   "en",
+   "pt-br",
+   "es-mx"
+  ],
+  "svg": [
+   "en",
+   "pt-br",
+   "es-mx"
+  ],
+  "png": [
+   "en",
+   "pt-br",
+   "es-mx"
+  ],
+  "path": "assets/images/<lang>/screens/operational-capacity-daily-order-limits.png",
+  "svgPath": "assets/images/<lang>/svg/screens/operational-capacity-daily-order-limits.svg"
+ },
+ {
+  "slug": "order-allocation-agent",
+  "type": "screen",
+  "title": "Order Allocation Agent",
+  "title_pt": "Agente de alocação de pedidos",
+  "title_es": "Agente de asignación de pedidos",
+  "category": "AI & Agents",
+  "keywords": [
+   "order allocation",
+   "fulfillment",
+   "agent"
+  ],
+  "langs": [
+   "en",
+   "pt-br",
+   "es-mx"
+  ],
+  "svg": [
+   "en",
+   "pt-br",
+   "es-mx"
+  ],
+  "png": [
+   "en",
+   "pt-br",
+   "es-mx"
+  ],
+  "path": "assets/images/<lang>/screens/order-allocation-agent.png",
+  "svgPath": "assets/images/<lang>/svg/screens/order-allocation-agent.svg"
+ },
+ {
+  "slug": "personal-shopper-cx-platform",
+  "type": "screen",
+  "title": "Personal Shopper — VTEX CX Platform",
+  "title_pt": "Personal Shopper — VTEX CX Platform",
+  "title_es": "Personal Shopper — VTEX CX Platform",
+  "category": "AI & Agents",
+  "keywords": [
+   "personal shopper",
+   "conversational commerce"
+  ],
+  "langs": [
+   "en",
+   "pt-br",
+   "es-mx"
+  ],
+  "svg": [
+   "en",
+   "pt-br",
+   "es-mx"
+  ],
+  "png": [
+   "en",
+   "pt-br",
+   "es-mx"
+  ],
+  "path": "assets/images/<lang>/screens/personal-shopper-cx-platform.png",
+  "svgPath": "assets/images/<lang>/svg/screens/personal-shopper-cx-platform.svg"
+ },
+ {
+  "slug": "pick-and-pack-fast-mode",
+  "type": "screen",
+  "title": "Pick and Pack — Fast Mode",
+  "title_pt": "Pick and Pack — Modo rápido",
+  "title_es": "Pick and Pack — Modo rápido",
+  "category": "Logistics & Fulfillment",
+  "keywords": [
+   "pick and pack",
+   "picking",
+   "bag labels"
+  ],
+  "langs": [
+   "en",
+   "pt-br",
+   "es-mx"
+  ],
+  "svg": [
+   "en",
+   "pt-br",
+   "es-mx"
+  ],
+  "png": [
+   "en",
+   "pt-br",
+   "es-mx"
+  ],
+  "path": "assets/images/<lang>/screens/pick-and-pack-fast-mode.png",
+  "svgPath": "assets/images/<lang>/svg/screens/pick-and-pack-fast-mode.svg"
+ },
+ {
+  "slug": "pick-and-pack-in-store-pickup-flow",
+  "type": "screen",
+  "title": "Pick and Pack — Improved In-Store Pickup Flow",
+  "title_pt": "Pick and Pack — Fluxo de retirada em loja",
+  "title_es": "Pick and Pack — Flujo de retiro en tienda",
+  "category": "Logistics & Fulfillment",
+  "keywords": [
+   "pickup",
+   "in-store",
+   "shipping services"
+  ],
+  "langs": [
+   "en",
+   "pt-br",
+   "es-mx"
+  ],
+  "svg": [
+   "en",
+   "pt-br",
+   "es-mx"
+  ],
+  "png": [
+   "en",
+   "pt-br",
+   "es-mx"
+  ],
+  "path": "assets/images/<lang>/screens/pick-and-pack-in-store-pickup-flow.png",
+  "svgPath": "assets/images/<lang>/svg/screens/pick-and-pack-in-store-pickup-flow.svg"
+ },
+ {
+  "slug": "pick-and-pack-multi-language-support",
+  "type": "screen",
+  "title": "Pick and Pack — Multi-language Support",
+  "title_pt": "Pick and Pack — Suporte a múltiplos idiomas",
+  "title_es": "Pick and Pack — Soporte multilenguaje",
+  "category": "Logistics & Fulfillment",
+  "keywords": [
+   "pick and pack",
+   "multi-language",
+   "i18n",
+   "store ops"
+  ],
+  "langs": [
+   "en",
+   "pt-br",
+   "es-mx"
+  ],
+  "svg": [
+   "pt-br",
+   "es-mx"
+  ],
+  "png": [
+   "en",
+   "pt-br",
+   "es-mx"
+  ],
+  "path": "assets/images/<lang>/screens/pick-and-pack-multi-language-support.png",
+  "svgPath": "assets/images/<lang>/svg/screens/pick-and-pack-multi-language-support.svg"
+ },
+ {
+  "slug": "pick-and-pack-smart-order-filtering",
+  "type": "screen",
+  "title": "Pick and Pack — Smart Order Filtering",
+  "title_pt": "Pick and Pack — Filtro inteligente de pedidos",
+  "title_es": "Pick and Pack — Filtro inteligente de pedidos",
+  "category": "Logistics & Fulfillment",
+  "keywords": [
+   "pick and pack",
+   "filters",
+   "mobile"
+  ],
+  "langs": [
+   "en",
+   "pt-br",
+   "es-mx"
+  ],
+  "svg": [
+   "en",
+   "pt-br",
+   "es-mx"
+  ],
+  "png": [
+   "en",
+   "pt-br",
+   "es-mx"
+  ],
+  "path": "assets/images/<lang>/screens/pick-and-pack-smart-order-filtering.png",
+  "svgPath": "assets/images/<lang>/svg/screens/pick-and-pack-smart-order-filtering.svg"
+ },
+ {
+  "slug": "sales-app-extensibility-ai",
+  "type": "screen",
+  "title": "Sales App Extensibility — Build In-Store Extensions with AI",
+  "title_pt": "Sales App — Extensões em loja com IA",
+  "title_es": "Sales App — Extensiones en tienda con IA",
+  "category": "Logistics & Fulfillment",
+  "keywords": [
+   "sales app",
+   "pos",
+   "in-store",
+   "cashback"
+  ],
+  "langs": [
+   "en",
+   "pt-br",
+   "es-mx"
+  ],
+  "svg": [
+   "en",
+   "pt-br",
+   "es-mx"
+  ],
+  "png": [
+   "en",
+   "pt-br",
+   "es-mx"
+  ],
+  "path": "assets/images/<lang>/screens/sales-app-extensibility-ai.png",
+  "svgPath": "assets/images/<lang>/svg/screens/sales-app-extensibility-ai.svg"
+ },
+ {
+  "slug": "master-data-custom-entities",
+  "type": "screen",
+  "title": "Master Data — Custom Entities",
+  "title_pt": "Master Data — Entidades customizadas",
+  "title_es": "Master Data — Entidades personalizadas",
+  "category": "Platform & Data",
+  "keywords": [
+   "master data",
+   "entities"
+  ],
+  "langs": [
+   "en",
+   "pt-br",
+   "es-mx"
+  ],
+  "svg": [
+   "en",
+   "pt-br",
+   "es-mx"
+  ],
+  "png": [
+   "en",
+   "pt-br",
+   "es-mx"
+  ],
+  "path": "assets/images/<lang>/screens/master-data-custom-entities.png",
+  "svgPath": "assets/images/<lang>/svg/screens/master-data-custom-entities.svg"
+ },
+ {
+  "slug": "conversational-dashboard-contacts-metrics",
+  "type": "screen",
+  "title": "Conversational Dashboard — Unique and Returning Contacts",
+  "title_pt": "Dashboard conversacional — Contatos únicos e recorrentes",
+  "title_es": "Dashboard conversacional — Contactos únicos y recurrentes",
+  "category": "AI & Agents",
+  "keywords": [
+   "conversational",
+   "analytics",
+   "contacts"
+  ],
+  "langs": [
+   "en",
+   "pt-br",
+   "es-mx"
+  ],
+  "svg": [
+   "en",
+   "pt-br",
+   "es-mx"
+  ],
+  "png": [
+   "en",
+   "pt-br",
+   "es-mx"
+  ],
+  "path": "assets/images/<lang>/screens/conversational-dashboard-contacts-metrics.png",
+  "svgPath": "assets/images/<lang>/svg/screens/conversational-dashboard-contacts-metrics.svg"
+ },
+ {
+  "slug": "catalog-agent",
+  "type": "screen",
+  "title": "Catalog Agent",
+  "title_pt": "Agente de catálogo",
+  "title_es": "Agente de catálogo",
+  "category": "AI & Agents",
+  "keywords": [
+   "catalog",
+   "collections",
+   "agent"
+  ],
+  "langs": [
+   "en",
+   "pt-br",
+   "es-mx"
+  ],
+  "svg": [
+   "en",
+   "pt-br",
+   "es-mx"
+  ],
+  "png": [
+   "en",
+   "pt-br",
+   "es-mx"
+  ],
+  "path": "assets/images/<lang>/screens/catalog-agent.png",
+  "svgPath": "assets/images/<lang>/svg/screens/catalog-agent.svg"
+ },
+ {
+  "slug": "vtex-ads-platform",
+  "type": "screen",
+  "title": "VTEX Ads Platform",
+  "title_pt": "VTEX Ads Platform",
+  "title_es": "VTEX Ads Platform",
+  "category": "Search & Ads",
+  "keywords": [
+   "retail media",
+   "ads",
+   "campaigns"
+  ],
+  "langs": [
+   "en",
+   "pt-br",
+   "es-mx"
+  ],
+  "svg": [
+   "en",
+   "pt-br",
+   "es-mx"
+  ],
+  "png": [
+   "en",
+   "pt-br",
+   "es-mx"
+  ],
+  "path": "assets/images/<lang>/screens/vtex-ads-platform.png",
+  "svgPath": "assets/images/<lang>/svg/screens/vtex-ads-platform.svg"
+ },
+ {
+  "slug": "vtex-ai-workspace",
+  "type": "screen",
+  "title": "VTEX AI Workspace",
+  "title_pt": "VTEX AI Workspace",
+  "title_es": "VTEX AI Workspace",
+  "category": "AI & Agents",
+  "keywords": [
+   "ai workspace",
+   "assistant",
+   "feed",
+   "kpis"
+  ],
+  "langs": [
+   "en",
+   "pt-br",
+   "es-mx"
+  ],
+  "svg": [
+   "en",
+   "pt-br",
+   "es-mx"
+  ],
+  "png": [
+   "en",
+   "pt-br",
+   "es-mx"
+  ],
+  "path": "assets/images/<lang>/screens/vtex-ai-workspace.png",
+  "svgPath": "assets/images/<lang>/svg/screens/vtex-ai-workspace.svg"
+ },
+ {
+  "slug": "cx-platform-tracking-agent",
+  "type": "screen",
+  "title": "VTEX CX Platform — Tracking Agent",
+  "title_pt": "VTEX CX Platform — Agente de rastreio",
+  "title_es": "VTEX CX Platform — Agente de rastreo",
+  "category": "AI & Agents",
+  "keywords": [
+   "cx",
+   "ai team",
+   "activation"
+  ],
+  "langs": [
+   "en",
+   "pt-br",
+   "es-mx"
+  ],
+  "svg": [
+   "en",
+   "pt-br",
+   "es-mx"
+  ],
+  "png": [
+   "en",
+   "pt-br",
+   "es-mx"
+  ],
+  "path": "assets/images/<lang>/screens/cx-platform-tracking-agent.png",
+  "svgPath": "assets/images/<lang>/svg/screens/cx-platform-tracking-agent.svg"
+ },
+ {
+  "slug": "vtex-cx-platform",
+  "type": "screen",
+  "title": "VTEX CX Platform",
+  "title_pt": "VTEX CX Platform",
+  "title_es": "VTEX CX Platform",
+  "category": "AI & Agents",
+  "keywords": [
+   "cx",
+   "chat",
+   "tracking",
+   "support"
+  ],
+  "langs": [
+   "en",
+   "pt-br",
+   "es-mx"
+  ],
+  "svg": [
+   "en",
+   "pt-br",
+   "es-mx"
+  ],
+  "png": [
+   "en",
+   "pt-br",
+   "es-mx"
+  ],
+  "path": "assets/images/<lang>/screens/vtex-cx-platform.png",
+  "svgPath": "assets/images/<lang>/svg/screens/vtex-cx-platform.svg"
+ },
+ {
+  "slug": "vtex-order-entry",
+  "type": "screen",
+  "title": "VTEX Order Entry",
+  "title_pt": "VTEX Order Entry",
+  "title_es": "VTEX Order Entry",
+  "category": "Platform & Data",
+  "keywords": [
+   "b2b",
+   "order builder",
+   "quotes"
+  ],
+  "langs": [
+   "en",
+   "pt-br",
+   "es-mx"
+  ],
+  "svg": [
+   "en",
+   "pt-br",
+   "es-mx"
+  ],
+  "png": [
+   "en",
+   "pt-br",
+   "es-mx"
+  ],
+  "path": "assets/images/<lang>/screens/vtex-order-entry.png",
+  "svgPath": "assets/images/<lang>/svg/screens/vtex-order-entry.svg"
+ },
+ {
+  "slug": "vtex-organization-account",
+  "type": "screen",
+  "title": "VTEX Organization Account",
+  "title_pt": "Conta de organização VTEX",
+  "title_es": "Cuenta de organización VTEX",
+  "category": "Platform & Data",
+  "keywords": [
+   "b2b",
+   "contracts",
+   "organizations"
+  ],
+  "langs": [
+   "en",
+   "pt-br",
+   "es-mx"
+  ],
+  "svg": [
+   "en",
+   "pt-br",
+   "es-mx"
+  ],
+  "png": [
+   "en",
+   "pt-br",
+   "es-mx"
+  ],
+  "path": "assets/images/<lang>/screens/vtex-organization-account.png",
+  "svgPath": "assets/images/<lang>/svg/screens/vtex-organization-account.svg"
+ },
+ {
+  "slug": "vtex-organization-account-1",
+  "type": "screen",
+  "title": "VTEX Organization Account (alt)",
+  "title_pt": "Conta de organização VTEX (alt)",
+  "title_es": "Cuenta de organización VTEX (alt)",
+  "category": "Platform & Data",
+  "keywords": [
+   "b2b",
+   "contracts"
+  ],
+  "langs": [
+   "en",
+   "pt-br",
+   "es-mx"
+  ],
+  "svg": [
+   "en",
+   "pt-br",
+   "es-mx"
+  ],
+  "png": [
+   "en",
+   "pt-br",
+   "es-mx"
+  ],
+  "path": "assets/images/<lang>/screens/vtex-organization-account-1.png",
+  "svgPath": "assets/images/<lang>/svg/screens/vtex-organization-account-1.svg"
+ },
+ {
+  "slug": "promotions-agent-overlapping-promotions",
+  "type": "screen",
+  "title": "Promotions Agent — Overlapping Promotions",
+  "title_pt": "Agente de promoções — Promoções sobrepostas",
+  "title_es": "Agente de promociones — Promociones superpuestas",
+  "category": "AI & Agents",
+  "keywords": [
+   "promotions",
+   "discount stacking",
+   "agent"
+  ],
+  "langs": [
+   "en",
+   "pt-br",
+   "es-mx"
+  ],
+  "svg": [
+   "en",
+   "pt-br",
+   "es-mx"
+  ],
+  "png": [
+   "en",
+   "pt-br",
+   "es-mx"
+  ],
+  "path": "assets/images/<lang>/screens/promotions-agent-overlapping-promotions.png",
+  "svgPath": "assets/images/<lang>/svg/screens/promotions-agent-overlapping-promotions.svg"
+ },
+ {
+  "slug": "task-management-workflow",
+  "type": "screen",
+  "title": "Task Management — Workflow",
+  "title_pt": "Gestão de tarefas — Workflow",
+  "title_es": "Gestión de tareas — Workflow",
+  "category": "AI & Agents",
+  "keywords": [
+   "tasks",
+   "initiatives",
+   "action plan"
+  ],
+  "langs": [
+   "en",
+   "pt-br",
+   "es-mx"
+  ],
+  "svg": [
+   "en",
+   "pt-br",
+   "es-mx"
+  ],
+  "png": [
+   "en",
+   "pt-br",
+   "es-mx"
+  ],
+  "path": "assets/images/<lang>/screens/task-management-workflow.png",
+  "svgPath": "assets/images/<lang>/svg/screens/task-management-workflow.svg"
+ },
+ {
+  "slug": "waf-metrics",
+  "type": "screen",
+  "title": "WAF Metrics",
+  "title_pt": "Métricas do WAF",
+  "title_es": "Métricas del WAF",
+  "category": "Platform & Data",
+  "keywords": [
+   "security",
+   "waf",
+   "attacks"
+  ],
+  "langs": [
+   "en",
+   "pt-br",
+   "es-mx"
+  ],
+  "svg": [
+   "en",
+   "pt-br",
+   "es-mx"
+  ],
+  "png": [
+   "en",
+   "pt-br",
+   "es-mx"
+  ],
+  "path": "assets/images/<lang>/screens/waf-metrics.png",
+  "svgPath": "assets/images/<lang>/svg/screens/waf-metrics.svg"
+ },
+ {
+  "slug": "webops-onboarding-new-cms",
+  "type": "screen",
+  "title": "WebOps — Onboarding Now Supports the New CMS",
+  "title_pt": "WebOps — Onboarding com o novo CMS",
+  "title_es": "WebOps — Onboarding con el nuevo CMS",
+  "category": "Storefront, CMS & WebOps",
+  "keywords": [
+   "webops",
+   "deploy",
+   "github"
+  ],
+  "langs": [
+   "en",
+   "pt-br",
+   "es-mx"
+  ],
+  "svg": [
+   "en",
+   "pt-br",
+   "es-mx"
+  ],
+  "png": [
+   "en",
+   "pt-br",
+   "es-mx"
+  ],
+  "path": "assets/images/<lang>/screens/webops-onboarding-new-cms.png",
+  "svgPath": "assets/images/<lang>/svg/screens/webops-onboarding-new-cms.svg"
+ },
+ {
+  "slug": "webops-nodejs-runtime-config",
+  "type": "screen",
+  "title": "WebOps — Node.js Runtime Self-Configuration",
+  "title_pt": "WebOps — Autoconfiguração do runtime Node.js",
+  "title_es": "WebOps — Autoconfiguración del runtime Node.js",
+  "category": "Storefront, CMS & WebOps",
+  "keywords": [
+   "webops",
+   "node.js",
+   "settings"
+  ],
+  "langs": [
+   "en",
+   "pt-br",
+   "es-mx"
+  ],
+  "svg": [
+   "en",
+   "pt-br",
+   "es-mx"
+  ],
+  "png": [
+   "en",
+   "pt-br",
+   "es-mx"
+  ],
+  "path": "assets/images/<lang>/screens/webops-nodejs-runtime-config.png",
+  "svgPath": "assets/images/<lang>/svg/screens/webops-nodejs-runtime-config.svg"
+ },
+ {
+  "slug": "whatsapp-automation-execution-logs",
+  "type": "screen",
+  "title": "WhatsApp Automation — Execution Logs",
+  "title_pt": "Automação WhatsApp — Logs de execução",
+  "title_es": "Automatización WhatsApp — Registros de ejecución",
+  "category": "AI & Agents",
+  "keywords": [
+   "whatsapp",
+   "automation",
+   "logs",
+   "conversational"
+  ],
+  "langs": [
+   "en",
+   "pt-br",
+   "es-mx"
+  ],
+  "svg": [
+   "en",
+   "pt-br",
+   "es-mx"
+  ],
+  "png": [
+   "en",
+   "pt-br",
+   "es-mx"
+  ],
+  "path": "assets/images/<lang>/screens/whatsapp-automation-execution-logs.png",
+  "svgPath": "assets/images/<lang>/svg/screens/whatsapp-automation-execution-logs.svg"
+ },
+ {
+  "slug": "whatsapp-business-verification",
+  "type": "screen",
+  "title": "WhatsApp Business Verification",
+  "title_pt": "Verificação WhatsApp Business",
+  "title_es": "Verificación de WhatsApp Business",
+  "category": "AI & Agents",
+  "keywords": [
+   "whatsapp",
+   "business verification",
+   "conversational"
+  ],
+  "langs": [
+   "en",
+   "pt-br",
+   "es-mx"
+  ],
+  "svg": [
+   "en",
+   "pt-br",
+   "es-mx"
+  ],
+  "png": [
+   "en",
+   "pt-br",
+   "es-mx"
+  ],
+  "path": "assets/images/<lang>/screens/whatsapp-business-verification.png",
+  "svgPath": "assets/images/<lang>/svg/screens/whatsapp-business-verification.svg"
+ },
+ {
+  "slug": "synonym-conflict-detection",
+  "type": "screen",
+  "title": "Synonym Conflict Detection",
+  "title_pt": "Detecção de conflito de sinônimos",
+  "title_es": "Detección de conflictos de sinónimos",
+  "category": "Search & Ads",
+  "keywords": [
+   "search",
+   "synonyms",
+   "conflict",
+   "relevance"
+  ],
+  "langs": [
+   "en",
+   "pt-br",
+   "es-mx"
+  ],
+  "svg": [
+   "en",
+   "pt-br",
+   "es-mx"
+  ],
+  "png": [
+   "en",
+   "pt-br",
+   "es-mx"
+  ],
+  "path": "assets/images/<lang>/screens/synonym-conflict-detection.png",
+  "svgPath": "assets/images/<lang>/svg/screens/synonym-conflict-detection.svg"
+ },
+ {
+  "slug": "safety-guardrails",
+  "type": "screen",
+  "title": "Safety Guardrails",
+  "title_pt": "Guardrails de segurança",
+  "title_es": "Guardrails de seguridad",
+  "category": "AI & Agents",
+  "keywords": [
+   "ai",
+   "agents",
+   "safety",
+   "guardrails",
+   "blocked topics",
+   "moderation",
+   "manager"
+  ],
+  "langs": [
+   "en",
+   "pt-br",
+   "es-mx"
+  ],
+  "svg": [
+   "en",
+   "pt-br",
+   "es-mx"
+  ],
+  "png": [
+   "en",
+   "pt-br",
+   "es-mx"
+  ],
+  "path": "assets/images/<lang>/screens/safety-guardrails.png",
+  "svgPath": "assets/images/<lang>/svg/screens/safety-guardrails.svg"
+ },
+ {
+  "slug": "suggested-questions",
+  "type": "screen",
+  "title": "Suggested Questions — Shopping Assistant",
+  "title_pt": "Perguntas sugeridas — Assistente de Compras",
+  "title_es": "Preguntas sugeridas — Asistente de Compras",
+  "category": "AI & Agents",
+  "keywords": [
+   "ai",
+   "shopping assistant",
+   "chat",
+   "suggested questions",
+   "storefront",
+   "pdp",
+   "conversational"
+  ],
+  "langs": [
+   "en",
+   "pt-br",
+   "es-mx"
+  ],
+  "svg": [
+   "en",
+   "pt-br",
+   "es-mx"
+  ],
+  "png": [
+   "en",
+   "pt-br",
+   "es-mx"
+  ],
+  "path": "assets/images/<lang>/screens/suggested-questions.png",
+  "svgPath": "assets/images/<lang>/svg/screens/suggested-questions.svg"
+ }
+]

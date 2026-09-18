@@ -1,0 +1,20 @@
+<!-- @dsCard group="Slides" viewport="700x210" name="Entrance Motion Standard" subtitle="Sequential entrance pattern for slides — fires when ≥50% visible" -->
+<!DOCTYPE html><html><head><meta charset="utf-8"><link rel="stylesheet" href="../styles.css"><style>body{margin:0;font-family:var(--font-brand);background:#fff}a{color:#F71963}a:hover{color:#DD1659}
+@keyframes demoLine{0%{opacity:0;transform:scaleX(0)}10%,78%{opacity:1;transform:scaleX(1)}88%,100%{opacity:0;transform:scaleX(0)}}
+@keyframes demoUp{0%{opacity:0;transform:translateY(14px)}12%,78%{opacity:1;transform:none}88%,100%{opacity:0;transform:translateY(14px)}}
+</style></head><body>
+<div style="display:flex;gap:24px;padding:20px;align-items:stretch">
+<div style="flex:1;background:#142032;border-radius:10px;padding:24px 28px;overflow:hidden">
+<div style="width:44px;height:3px;background:#F71963;transform-origin:left;animation:demoLine 5s cubic-bezier(.16,.84,.44,1) 0s infinite"></div>
+<div style="color:#fff;font-size:24px;margin-top:14px;animation:demoUp 5s cubic-bezier(.16,.84,.44,1) .15s infinite">Title enters after the line</div>
+<div style="color:#A1A8B7;font-size:14px;line-height:1.5;margin-top:10px;animation:demoUp 5s cubic-bezier(.16,.84,.44,1) .3s infinite">Supporting text next, image last.</div>
+</div>
+<div style="width:250px;display:flex;flex-direction:column;justify-content:center;gap:8px;color:#5B6E84;font-size:12.5px;line-height:1.5">
+<div><b style="color:#142032;font-weight:500">Order:</b> line → title → text → image</div>
+<div><b style="color:#142032;font-weight:500">Easing:</b> cubic-bezier(.16,.84,.44,1) · 0.5–0.8s</div>
+<div><b style="color:#142032;font-weight:500">Stagger:</b> ~0.15–0.2s steps</div>
+<div><b style="color:#142032;font-weight:500">Trigger:</b> slide ≥50% visible (replays on every showing)</div>
+<div>Reference: <span style="font-family:monospace;font-size:11px">templates/feature-slides/</span></div>
+</div>
+</div>
+</body></html>

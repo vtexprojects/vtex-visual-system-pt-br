@@ -1,0 +1,40 @@
+<!-- @dsCard group="Components" viewport="700x340" name="Admin UI Kit" subtitle="Product-UI primitives — blue-led, styleguide.vtex.com tokens" -->
+<!DOCTYPE html><html><head><meta charset="utf-8"><link rel="stylesheet" href="../../styles.css">
+<script src="https://unpkg.com/react@18.3.1/umd/react.development.js" integrity="sha384-hD6/rw4ppMLGNu3tX5cjIb+uRZ7UkRJ6BPkLpg4hAu/6onKUg4lLsHAs9EBPT82L" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.development.js" integrity="sha384-u6aeetuaXnQ38mYT8rp6sbXaQe3NL9t+IBXmnYxwkUI2Hw4bsp2Wvmx4yRQF1uAm" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/@babel/standalone@7.29.0/babel.min.js" integrity="sha384-m08KidiNqLdpJqLq95G/LEi8Qvjl/xUYll3QILypMoQ65QorJ9Lvtp2RXYGBFj1y" crossorigin="anonymous"></script>
+<script src="../../_ds_bundle.js"></script>
+<style>body{margin:0;background:#F7F9FA}a{color:#134CD8}a:hover{color:#2A6DBF}</style></head><body>
+<div id="root"></div>
+<script type="text/babel">
+const { AdminButton, AdminInput, AdminAlert, AdminBadge } = window.VTEXDesignSystem_e401bd;
+function Demo(){return (
+<div style={{padding:20,display:'grid',gridTemplateColumns:'1fr 1fr',gap:16}}>
+  <div style={{background:'#fff',border:'1px solid #E3E4E6',borderRadius:4,padding:16,display:'flex',flexDirection:'column',gap:10}}>
+    <div style={{display:'flex',gap:8,flexWrap:'wrap'}}>
+      <AdminButton>Save</AdminButton>
+      <AdminButton variant="secondary">Cancel</AdminButton>
+      <AdminButton variant="tertiary">More options</AdminButton>
+    </div>
+    <div style={{display:'flex',gap:8}}>
+      <AdminButton variant="danger" size="small">Delete</AdminButton>
+      <AdminButton size="small" disabled>Save</AdminButton>
+    </div>
+    <div style={{display:'flex',gap:8,alignItems:'center'}}>
+      <AdminBadge type="success">Invoiced</AdminBadge>
+      <AdminBadge type="warning">Pending</AdminBadge>
+      <AdminBadge type="danger">Canceled</AdminBadge>
+      <AdminBadge>Draft</AdminBadge>
+    </div>
+  </div>
+  <div style={{background:'#fff',border:'1px solid #E3E4E6',borderRadius:4,padding:16,display:'flex',flexDirection:'column',gap:12}}>
+    <AdminInput label="Store name" placeholder="e.g. acmestore" helper="Lowercase, no spaces" />
+    <AdminInput label="SKU" error="Required field" />
+  </div>
+  <div style={{gridColumn:'1 / -1',display:'flex',flexDirection:'column',gap:8}}>
+    <AdminAlert type="success">Your changes were saved.</AdminAlert>
+    <AdminAlert type="warning">This price list expires tomorrow.</AdminAlert>
+  </div>
+</div>);}
+ReactDOM.createRoot(document.getElementById('root')).render(<Demo/>);
+</script></body></html>

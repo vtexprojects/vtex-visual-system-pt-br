@@ -1,0 +1,305 @@
+{
+  "plugins": [
+    "react",
+    "import"
+  ],
+  "rules": {
+    "react/forbid-elements": [
+      "warn",
+      {
+        "forbid": []
+      }
+    ],
+    "no-restricted-imports": [
+      "warn",
+      {
+        "patterns": [
+          {
+            "group": [
+              "components/admin/**",
+              "components/diagrams/**"
+            ],
+            "message": "Import design-system components from 'index.js', not component internals."
+          }
+        ]
+      }
+    ],
+    "no-restricted-syntax": [
+      "warn",
+      {
+        "selector": "Literal[value=/#[0-9a-fA-F]{3,8}\\b/]",
+        "message": "Raw hex color — use a design-system color token via var()."
+      },
+      {
+        "selector": "Literal[value=/font-family\\s*:\\s*(?!['\\\"]?(?:VTEX Trust))/i]",
+        "message": "Font not provided by the design system. Available: VTEX Trust."
+      },
+      {
+        "selector": "JSXOpeningElement[name.name='AdminAlert'] > JSXAttribute > JSXIdentifier[name!=/^(?:type|children|style|key|ref|className|style|children)$/]",
+        "message": "<AdminAlert> doesn't accept that prop. Declared props: type, children, style."
+      },
+      {
+        "selector": "JSXOpeningElement[name.name='AdminAlert'] > JSXAttribute[name.name='type'] > Literal[value!=/^(?:success|danger|warning)$/]",
+        "message": "<AdminAlert> type must be one of 'success' | 'danger' | 'warning'."
+      },
+      {
+        "selector": "JSXOpeningElement[name.name='AdminBadge'] > JSXAttribute > JSXIdentifier[name!=/^(?:type|children|style|key|ref|className|style|children)$/]",
+        "message": "<AdminBadge> doesn't accept that prop. Declared props: type, children, style."
+      },
+      {
+        "selector": "JSXOpeningElement[name.name='AdminBadge'] > JSXAttribute[name.name='type'] > Literal[value!=/^(?:neutral|success|danger|warning)$/]",
+        "message": "<AdminBadge> type must be one of 'neutral' | 'success' | 'danger' | 'warning'."
+      },
+      {
+        "selector": "JSXOpeningElement[name.name='AdminButton'] > JSXAttribute > JSXIdentifier[name!=/^(?:variant|size|disabled|onClick|children|style|key|ref|className|style|children)$/]",
+        "message": "<AdminButton> doesn't accept that prop. Declared props: variant, size, disabled, onClick, children, style."
+      },
+      {
+        "selector": "JSXOpeningElement[name.name='AdminButton'] > JSXAttribute[name.name='variant'] > Literal[value!=/^(?:primary|secondary|tertiary|danger)$/]",
+        "message": "<AdminButton> variant must be one of 'primary' | 'secondary' | 'tertiary' | 'danger'."
+      },
+      {
+        "selector": "JSXOpeningElement[name.name='AdminButton'] > JSXAttribute[name.name='size'] > Literal[value!=/^(?:regular|small)$/]",
+        "message": "<AdminButton> size must be one of 'regular' | 'small'."
+      },
+      {
+        "selector": "JSXOpeningElement[name.name='AdminInput'] > JSXAttribute > JSXIdentifier[name!=/^(?:label|placeholder|value|onChange|helper|error|style|key|ref|className|style|children)$/]",
+        "message": "<AdminInput> doesn't accept that prop. Declared props: label, placeholder, value, onChange, helper, error, style."
+      },
+      {
+        "selector": "JSXOpeningElement[name.name='DiagramGroup'] > JSXAttribute > JSXIdentifier[name!=/^(?:label|external|children|style|key|ref|className|style|children)$/]",
+        "message": "<DiagramGroup> doesn't accept that prop. Declared props: label, external, children, style."
+      },
+      {
+        "selector": "JSXOpeningElement[name.name='DiagramLegend'] > JSXAttribute > JSXIdentifier[name!=/^(?:kinds|style|key|ref|className|style|children)$/]",
+        "message": "<DiagramLegend> doesn't accept that prop. Declared props: kinds, style."
+      },
+      {
+        "selector": "JSXOpeningElement[name.name='DiagramNode'] > JSXAttribute > JSXIdentifier[name!=/^(?:kind|label|sublabel|style|key|ref|className|style|children)$/]",
+        "message": "<DiagramNode> doesn't accept that prop. Declared props: kind, label, sublabel, style."
+      },
+      {
+        "selector": "JSXOpeningElement[name.name='DiagramNode'] > JSXAttribute[name.name='kind'] > Literal[value!=/^(?:native|custom|external|middleware)$/]",
+        "message": "<DiagramNode> kind must be one of 'native' | 'custom' | 'external' | 'middleware'."
+      },
+      {
+        "selector": "JSXOpeningElement[name.name='DiagramTitle'] > JSXAttribute > JSXIdentifier[name!=/^(?:subtitle|style|key|ref|className|style|children)$/]",
+        "message": "<DiagramTitle> doesn't accept that prop. Declared props: subtitle, style."
+      },
+      {
+        "selector": "JSXOpeningElement[name.name='NoteBox'] > JSXAttribute > JSXIdentifier[name!=/^(?:children|style|key|ref|className|style|children)$/]",
+        "message": "<NoteBox> doesn't accept that prop. Declared props: children, style."
+      }
+    ]
+  },
+  "overrides": [
+    {
+      "files": [
+        "**/index.js"
+      ],
+      "rules": {
+        "no-restricted-imports": "off"
+      }
+    }
+  ],
+  "x-omelette": {
+    "components": {
+      "AdminAlert": {
+        "replaces": []
+      },
+      "AdminBadge": {
+        "replaces": []
+      },
+      "AdminButton": {
+        "replaces": []
+      },
+      "AdminInput": {
+        "replaces": []
+      },
+      "DiagramGroup": {
+        "replaces": []
+      },
+      "DiagramLegend": {
+        "replaces": []
+      },
+      "DiagramNode": {
+        "replaces": []
+      },
+      "DiagramTitle": {
+        "replaces": []
+      },
+      "NoteBox": {
+        "replaces": []
+      }
+    },
+    "tokens": [
+      "--accent",
+      "--accent-hover",
+      "--admin-action-primary",
+      "--admin-action-secondary",
+      "--admin-bg-base",
+      "--admin-bg-inverted",
+      "--admin-bg-muted",
+      "--admin-border",
+      "--admin-danger",
+      "--admin-danger-faded",
+      "--admin-disabled-bg",
+      "--admin-disabled-text",
+      "--admin-emphasis",
+      "--admin-muted-1",
+      "--admin-muted-2",
+      "--admin-muted-3",
+      "--admin-muted-4",
+      "--admin-muted-5",
+      "--admin-near-white",
+      "--admin-radius",
+      "--admin-success",
+      "--admin-success-faded",
+      "--admin-success-text",
+      "--admin-text-base",
+      "--admin-text-link",
+      "--admin-text-muted",
+      "--admin-warning",
+      "--admin-warning-faded",
+      "--admin-warning-text",
+      "--border",
+      "--diagram-custom-border",
+      "--diagram-custom-fill",
+      "--diagram-external-fill",
+      "--diagram-middleware-fill",
+      "--diagram-native-border",
+      "--diagram-native-fill",
+      "--font-admin",
+      "--font-brand",
+      "--gradient-neutral",
+      "--gradient-neutral-stop-1",
+      "--gradient-neutral-stop-2",
+      "--gradient-section-divider",
+      "--gradient-sirius-black",
+      "--gradient-sirius-black-stop-1",
+      "--gradient-sirius-black-stop-2",
+      "--gradient-slide-blush",
+      "--gradient-strawberry-pink",
+      "--gradient-strawberry-pink-stop-1",
+      "--gradient-strawberry-pink-stop-2",
+      "--leading-body",
+      "--leading-heading",
+      "--leading-subheading",
+      "--surface-dark",
+      "--surface-page",
+      "--surface-subtle",
+      "--surface-tint",
+      "--text-body",
+      "--text-body-base",
+      "--text-body-lg",
+      "--text-caption",
+      "--text-display",
+      "--text-h1",
+      "--text-h2",
+      "--text-h3",
+      "--text-heading",
+      "--text-muted",
+      "--text-muted-on-dark",
+      "--text-on-dark",
+      "--vtex-bubble-gum",
+      "--vtex-cool-gray",
+      "--vtex-heavy-rebel-pink",
+      "--vtex-plain-white",
+      "--vtex-rebel-pink",
+      "--vtex-serious-black",
+      "--vtex-serious-gray",
+      "--vtex-soft-blue",
+      "--vtex-soft-pink",
+      "--vtex-winter-gray",
+      "--vtex-yogurt-pink",
+      "--weight-bold",
+      "--weight-regular"
+    ],
+    "tokenKinds": {
+      "--vtex-rebel-pink": "color",
+      "--vtex-heavy-rebel-pink": "color",
+      "--vtex-serious-black": "color",
+      "--vtex-plain-white": "color",
+      "--vtex-soft-blue": "color",
+      "--vtex-soft-pink": "color",
+      "--vtex-yogurt-pink": "color",
+      "--vtex-bubble-gum": "color",
+      "--vtex-winter-gray": "color",
+      "--vtex-cool-gray": "color",
+      "--vtex-serious-gray": "color",
+      "--accent": "color",
+      "--accent-hover": "color",
+      "--surface-page": "color",
+      "--surface-subtle": "color",
+      "--surface-tint": "color",
+      "--surface-dark": "color",
+      "--text-heading": "font",
+      "--text-body": "font",
+      "--text-muted": "font",
+      "--text-on-dark": "font",
+      "--text-muted-on-dark": "font",
+      "--border": "color",
+      "--diagram-native-fill": "color",
+      "--diagram-native-border": "color",
+      "--diagram-custom-fill": "color",
+      "--diagram-custom-border": "color",
+      "--diagram-external-fill": "color",
+      "--diagram-middleware-fill": "color",
+      "--gradient-strawberry-pink": "color",
+      "--gradient-strawberry-pink-stop-1": "color",
+      "--gradient-strawberry-pink-stop-2": "color",
+      "--gradient-sirius-black": "color",
+      "--gradient-sirius-black-stop-1": "color",
+      "--gradient-sirius-black-stop-2": "color",
+      "--gradient-neutral": "color",
+      "--gradient-neutral-stop-1": "color",
+      "--gradient-neutral-stop-2": "color",
+      "--gradient-slide-blush": "color",
+      "--gradient-section-divider": "color",
+      "--font-brand": "font",
+      "--font-admin": "font",
+      "--text-display": "font",
+      "--text-h1": "font",
+      "--text-h2": "font",
+      "--text-h3": "font",
+      "--text-body-lg": "font",
+      "--text-body-base": "font",
+      "--text-caption": "font",
+      "--leading-heading": "font",
+      "--leading-subheading": "font",
+      "--leading-body": "font",
+      "--weight-regular": "font",
+      "--weight-bold": "font",
+      "--admin-action-primary": "color",
+      "--admin-action-secondary": "color",
+      "--admin-emphasis": "color",
+      "--admin-bg-base": "color",
+      "--admin-bg-muted": "color",
+      "--admin-bg-inverted": "color",
+      "--admin-text-base": "font",
+      "--admin-text-muted": "font",
+      "--admin-text-link": "font",
+      "--admin-border": "color",
+      "--admin-disabled-bg": "color",
+      "--admin-disabled-text": "font",
+      "--admin-success": "color",
+      "--admin-success-faded": "color",
+      "--admin-success-text": "font",
+      "--admin-danger": "color",
+      "--admin-danger-faded": "color",
+      "--admin-warning": "color",
+      "--admin-warning-faded": "color",
+      "--admin-warning-text": "font",
+      "--admin-muted-1": "color",
+      "--admin-muted-2": "color",
+      "--admin-muted-3": "color",
+      "--admin-muted-4": "color",
+      "--admin-muted-5": "color",
+      "--admin-near-white": "color",
+      "--admin-radius": "radius"
+    },
+    "fontFamilies": [
+      "VTEX Trust"
+    ]
+  }
+}

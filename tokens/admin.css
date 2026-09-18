@@ -1,0 +1,31 @@
+:root{
+/* VTEX Product UI (Admin) tokens — styleguide.vtex.com / vtex-tachyons.
+   Admin-only: the product's primary action color is BLUE, never pink. */
+--admin-action-primary:#134CD8;
+--admin-action-secondary:#EEF3F7;
+--admin-emphasis:#F71963;
+--admin-bg-base:#FFFFFF;
+--admin-bg-muted:#F7F9FA;
+--admin-bg-inverted:#3F3F40;
+--admin-text-base:#3F3F40;
+--admin-text-muted:#979899;
+--admin-text-link:#134CD8;
+--admin-border:#E3E4E6;
+--admin-disabled-bg:#F2F4F5;
+--admin-disabled-text:#979899;
+--admin-success:#8BC34A;
+--admin-success-faded:#EAFCE3;
+--admin-success-text:#79B03A;
+--admin-danger:#FF4C4C;
+--admin-danger-faded:#FFE6E6;
+--admin-warning:#FFB100;
+--admin-warning-faded:#FFF6E0;
+--admin-warning-text:#E19D00;
+--admin-muted-1:#727273;
+--admin-muted-2:#979899;
+--admin-muted-3:#CACBCC;
+--admin-muted-4:#E3E4E6;
+--admin-muted-5:#F2F4F5;
+--admin-near-white:#F7F9FA;
+--admin-radius:4px;
+}

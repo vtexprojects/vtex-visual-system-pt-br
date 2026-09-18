@@ -1,0 +1,19 @@
+/* Semantic gradients — from brand GRADIENTS spec (uploads/GRADIENTS.svg) */
+:root{
+/* Strawberry Pink (Rebel Pink → Strawberry Pink*): energy, CTAs, hero moments */
+--gradient-strawberry-pink:linear-gradient(180deg,#F71963 0%,#FF6F9F 100%); /* @kind color */
+--gradient-strawberry-pink-stop-1:#F71963;
+--gradient-strawberry-pink-stop-2:#FF6F9F;
+/* Sirius Black → Secondary Dark: dark hero backgrounds, footers, contrast sections */
+--gradient-sirius-black:linear-gradient(180deg,#060F23 0%,#2C4872 100%); /* @kind color */
+--gradient-sirius-black-stop-1:#060F23;
+--gradient-sirius-black-stop-2:#2C4872;
+/* Neutral Default → Neutral Light: light surfaces, subtle section backgrounds */
+--gradient-neutral:linear-gradient(180deg,#C4CCD9 0%,#F6F7F9 100%); /* @kind color */
+--gradient-neutral-stop-1:#C4CCD9;
+--gradient-neutral-stop-2:#F6F7F9;
+/* Slide blush: QBR content-slide background — white fading to pink at the bottom */
+--gradient-slide-blush:linear-gradient(180deg,#FFFFFF 0%,#FFFFFF 52%,#FEE7EE 100%); /* @kind color */
+/* Section divider: Sirius Black → Rebel Pink diagonal (QBR section slides) */
+--gradient-section-divider:linear-gradient(150deg,#060F23 0%,#1B0F2E 45%,#7E1246 78%,#C21455 100%); /* @kind color */
+}

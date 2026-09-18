@@ -1,0 +1,34 @@
+:root{
+/* Brand palette — brand.vtex.com */
+--vtex-rebel-pink:#F71963;
+--vtex-heavy-rebel-pink:#DD1659;
+--vtex-serious-black:#142032;
+--vtex-plain-white:#FFFFFF;
+--vtex-soft-blue:#F5F9FF;
+--vtex-soft-pink:#FFF3F6;
+--vtex-yogurt-pink:#FFE0EF;
+--vtex-bubble-gum:#FFC4DD;
+--vtex-winter-gray:#E7E9EE;
+--vtex-cool-gray:#A1A8B7;
+--vtex-serious-gray:#5B6E84;
+/* Semantic aliases (marketing/brand surfaces) */
+--accent:var(--vtex-rebel-pink);
+--accent-hover:var(--vtex-heavy-rebel-pink);
+--surface-page:var(--vtex-plain-white);
+--surface-subtle:var(--vtex-soft-blue);
+--surface-tint:var(--vtex-soft-pink);
+--surface-dark:var(--vtex-serious-black);
+--text-heading:var(--vtex-serious-black);
+--text-body:var(--vtex-serious-gray);
+--text-muted:var(--vtex-cool-gray);
+--text-on-dark:var(--vtex-plain-white);
+--text-muted-on-dark:var(--vtex-cool-gray);
+--border:var(--vtex-winter-gray);
+/* Diagram categories (architecture diagram standard) */
+--diagram-native-fill:var(--vtex-bubble-gum);
+--diagram-native-border:#F719631A;
+--diagram-custom-fill:#F6F7F9;
+--diagram-custom-border:#14203233;
+--diagram-external-fill:var(--vtex-serious-gray);
+--diagram-middleware-fill:#2C4872;
+}

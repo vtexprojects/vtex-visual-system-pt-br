@@ -1,0 +1,17 @@
+/* VTEX Trust — official brand typeface, full family, self-hosted */
+@font-face{font-family:'VTEX Trust';src:url("../fonts/VTEXTrust-Hairline.otf") format("opentype");font-weight:100;font-style:normal;font-display:swap}
+@font-face{font-family:'VTEX Trust';src:url("../fonts/VTEXTrust-HairlineItalic.otf") format("opentype");font-weight:100;font-style:italic;font-display:swap}
+@font-face{font-family:'VTEX Trust';src:url("../fonts/VTEXTrust-Thin.otf") format("opentype");font-weight:200;font-style:normal;font-display:swap}
+@font-face{font-family:'VTEX Trust';src:url("../fonts/VTEXTrust-ThinItalic.otf") format("opentype");font-weight:200;font-style:italic;font-display:swap}
+@font-face{font-family:'VTEX Trust';src:url("../fonts/VTEXTrust-Light.otf") format("opentype");font-weight:300;font-style:normal;font-display:swap}
+@font-face{font-family:'VTEX Trust';src:url("../fonts/VTEXTrust-LightItalic.otf") format("opentype");font-weight:300;font-style:italic;font-display:swap}
+@font-face{font-family:'VTEX Trust';src:url("../fonts/VTEXTrust-Regular.otf") format("opentype");font-weight:400;font-style:normal;font-display:swap}
+@font-face{font-family:'VTEX Trust';src:url("../fonts/VTEXTrust-Italic.otf") format("opentype");font-weight:400;font-style:italic;font-display:swap}
+@font-face{font-family:'VTEX Trust';src:url("../fonts/VTEXTrust-Medium.otf") format("opentype");font-weight:500;font-style:normal;font-display:swap}
+@font-face{font-family:'VTEX Trust';src:url("../fonts/VTEXTrust-MediumItalic.otf") format("opentype");font-weight:500;font-style:italic;font-display:swap}
+@font-face{font-family:'VTEX Trust';src:url("../fonts/VTEXTrust-Bold.otf") format("opentype");font-weight:700;font-style:normal;font-display:swap}
+@font-face{font-family:'VTEX Trust';src:url("../fonts/VTEXTrust-BoldItalic.otf") format("opentype");font-weight:700;font-style:italic;font-display:swap}
+@font-face{font-family:'VTEX Trust';src:url("../fonts/VTEXTrust-Black.otf") format("opentype");font-weight:800 900;font-style:normal;font-display:swap}
+@font-face{font-family:'VTEX Trust';src:url("../fonts/VTEXTrust-BlackItalic.otf") format("opentype");font-weight:800 900;font-style:italic;font-display:swap}
+/* Real weights only — never synthesize faux bold/italic */
+body{font-synthesis:none}

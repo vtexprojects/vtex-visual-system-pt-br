@@ -1,0 +1,5 @@
+# Raw uploads / working files — not part of the design system
+uploads/
+.thumbnail
+.DS_Store
+Thumbs.db
